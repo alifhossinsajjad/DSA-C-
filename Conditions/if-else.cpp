@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     /* Checking the voting eligibility of a person */
-    
+
     // int age;
     // cout << "Enter Your Age :";
     // cin >> age;
@@ -17,7 +17,6 @@ int main()
     // {
     //     cout << "Your are not eligible for voting\n";
     // }
-
 
     /*Check marks of a student and determine the grade*/
 
@@ -60,21 +59,23 @@ int main()
     //     cout << "The character is uppercase.\n";
     // }
 
-
-
-    
     /*Find Character uppercase or lowercase with ASCII values */
 
-    char ch;
-    cout << "Enter Your Character :";
-    cin >> ch;
-    if (ch >= 65 && ch <= 90)
-    {
-        cout << "The character is uppercase.\n";
-    }
-    else
-    {
-        cout << "The character is lowercase.\n";
-    }
+    // char ch;
+    // cout << "Enter Your Character :";
+    // cin >> ch;
+    // if (ch >= 65 && ch <= 90)
+    // {
+    //     cout << "The character is uppercase.\n";
+    // }
+    // else
+    // {
+    //     cout << "The character is lowercase.\n";
+    // }
+
+    /*Ternary Operator */
+
+    int n = -10;
+    cout << (n >= 0 ? "Positive" : "Negative") << endl;
     return 0;
 }
