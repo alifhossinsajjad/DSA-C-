@@ -8,14 +8,15 @@ int main()
 
     for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < i + 1; j++)
+        for (int j = 1; j <= i + 1; j++)
         {
             // cout << "* ";
             // cout << (i + 1) << " ";
-            cout << ch << " "; // Print the number only base on columns and rows
-        }
+            cout << j << " ";
+            // cout << ch  << " "; // Print the number only base on columns and rows
+                }
 
-        ch++;
+        // ch++;
         cout << endl;
     }
     return 0;
