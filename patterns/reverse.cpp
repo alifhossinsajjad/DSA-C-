@@ -6,14 +6,15 @@ int main()
 {
 
     int n = 5;
+    char ch = 'A';
 
     for (int i = 0; i < n; i++)
     {
-        for (int j = i+1; j > 0; j--)
+        for (int j = i + 1; j > 0; j--)
         {
-            cout << j << " ";
+            // cout << j << " ";
+            cout << char(ch + j - 1) << " ";
         }
-
         cout << endl;
     }
     return 0;
